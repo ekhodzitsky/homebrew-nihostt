@@ -18,14 +18,14 @@ class Nihostt < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ekhodzitsky/nihostt/releases/download/v0.1.0/nihostt-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "7a0ac837544edd4ed2ed157ad159c1fba57e78ab6ea4ca711029bf30de270279"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/ekhodzitsky/nihostt/releases/download/v0.1.0/nihostt-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "217f95b215094e414323f732915e36fdc51027726ce404d9468e73e27047ef42"
     end
   end
 
